@@ -210,7 +210,7 @@ int main() {
 }
 */
 
-
+/* Problem #20
 int main() {
     int a,b;
     cout<<"Enter two numbers: ";
@@ -224,3 +224,4 @@ int main() {
     }
 
 }
+*/
