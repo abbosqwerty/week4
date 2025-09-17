@@ -187,8 +187,29 @@ int main() {
 
     }
 } */
-/* Problem 18
- */
+/* Problem 19
+ 
 int main() {
-
-}
+double gpa;
+    cout << "Enter GPA: ";
+    cin >> gpa;
+    int ran = (int)gpa * 10;
+    switch (ran/10) {
+        case 4:
+            cout <<"You got 80% scholarship";
+            break;
+        case 3:
+            if (gpa >= 3.5) {
+                cout <<"You got 60% scholarship";
+            }
+            else if (gpa >= 3.0) {
+                cout <<"You got 50% scholarship";
+            }
+            else {
+                cout <<"no scholarship";
+            }
+            break;
+        default:
+            cout <<"No scholarship";
+    }
+} */
